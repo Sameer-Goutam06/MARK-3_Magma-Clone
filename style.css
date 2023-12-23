@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    position: relative;
+    overflow: hidden;
+}
+@font-face {
+    font-family: a;
+    src: url("./magma-images/jost-variable.ttf");
+}
+@font-face {
+    font-family: b;
+    src: url("./magma-images/KFOlCnqEu92Fr1MmEU9fBBc4\ \(1\).ttf");
+}
+@font-face {
+    font-family: c;
+    src: url("./magma-images/KFOmCnqEu92Fr1Mu4mxK\ \(1\).ttf");
+}
+#page1{
+    height: 100vh;
+    width: 100vw;
+    background-color:rgb(0, 81, 255);
+    position: relative;
+}
+#magma-video{
+    object-fit: cover;
+    width:100vw;
+    height: 100vh;
+}
+#page1>nav{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    position: absolute;
+    padding:0px 30px;
+    height: 10vh;
+    width: 100vw;
+}
+#page1>nav>img{
+    position:relative;
+    left: -5rem;
+    top:-0.5rem;
+    width:13%;
+    height:150%;
+}
+.right-nav>button{
+    padding:10px 20px;
+    border-radius: 50px;
+    border:1px solid black;
+    background-color: #0b48ed;
+    color:white;
+    font-family: a;
+    font-size: 1rem;
+}
+#bottom-page1{
+    position:absolute;
+    bottom:1%;
+    left:8%;
+    height:55vh;
+    width: 50vw;
+}
+#bottom-page1>p{
+    font-family: a;
+    color:white;
+    font-weight:normal;
+    font-size: 6.5vw;
+    font-weight: 100;
+    line-height: 7rem;
+    padding-bottom: 45px;
+}
+#bottom-page1-inner{
+    height: 35%;
+    width: 100%;
+}
+#bottom-page1-inner>h4{
+    font-family: a;
+    color:white;
+    font-weight:20;
+    font-size: 1.1rem;
+    line-height: 2rem;
+}
+#bottom-page1-inner>button{
+    padding:10px 20px;
+    border-radius: 50px;
+    border:1px solid white;
+    background-color:white;
+    color:#0b48ed;
+    font-family: b;
+    font-size: 1rem;
+    position:relative;
+    left:60%;
+    bottom:50%;
+}
+/* page 1 completed */
