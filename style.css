@@ -15,15 +15,15 @@ body {
 }
 @font-face {
     font-family: a;
-    src: url(./jost-variable.ttf);
+    src: url("./magma-images/jost-variable.ttf");
 }
 @font-face {
     font-family: b;
-    src: url(./KFOlCnqEu92Fr1MmEU9fBBc4\ \(1\).ttf);
+    src: url("./magma-images/KFOlCnqEu92Fr1MmEU9fBBc4\ \(1\).ttf");
 }
 @font-face {
     font-family: c;
-    src: url(./KFOmCnqEu92Fr1Mu4mxK\ \(1\).ttf);
+    src: url("./magma-images/KFOmCnqEu92Fr1Mu4mxK\ \(1\).ttf");
 }
 #page1
 {
