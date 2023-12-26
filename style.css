@@ -99,3 +99,9 @@ body {
     color: #fff;
 }
 /* page 1 completed */
+#page2{
+    height: 100vh;
+    width: 100vw;
+    background-color:red;
+    position:relative;
+}

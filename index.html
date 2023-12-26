@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Magma-Clone</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.0.1/remixicon.css" integrity="sha512-ZH3KB6wI5ADHaLaez5ynrzxR6lAswuNfhlXdcdhxsvOUghvf02zU1dAsOC6JrBTWbkE1WNDNs5Dcfz493fDMhA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="main">
         <!-- page 1 main page -->
-        <div id="page1">
+        <div data-scroll data-scroll-speed="-5" id="page1">
             <nav>
                 <img src="./magma-images/Screenshot 2023-05-30 220719.png" alt="">
                 <div id="right-nav">
@@ -28,12 +29,15 @@
             <video id="magma-video" src="https://thisismagma.com/wp-content/themes/magma/assets/home/hero/1.mp4?2" autoplay loop muted ></video>
         </div>
         <!--page 1 completed -->
-        <div class="page2">
+        <div id="page2">
             
         </div>
     </div>
-    <script src="app.js"></script>
+</div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.jsa"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js" integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/CSSRulePlugin.min.js" integrity="sha512-aUM9IHJr7TYwzhhbK0G9UQX6WNq6/1HC+lsh+EuqJyaOB44csmHMRVHcIVMWfrruvpVTtEqshD28L+0XxMH//g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js" integrity="sha512-OzC82YiH3UmMMs6Ydd9f2i7mS+UFL5f977iIoJ6oy07AJT+ePds9QOEtqXztSH29Nzua59fYS36knmMcv79GOg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="app.js"></script>
 </body>
 </html>
